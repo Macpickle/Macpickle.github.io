@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+    --base-background: #080808ff;
+    --secondary-background: #0c0c0cff;
+    --foreground: #181818ff;
+    --foreground-hover: #202020ff;
+    --foreground-border: #ffffff1a;
+    --primary-text: #e0e0e0ff;
+    --secondary-text: #a0a0a0ff;
+    --highlight-color: #a21efaff;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--base-background);
+    color: var(--primary-text);
+}
+
+main {
+    background-color: var(--secondary-background);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+li::marker {
+    color: var(--primary-text);
+}
+
+.foreground-box {
+    background: var(--foreground);
+    border: 1px solid var(--foreground-border);
+}
+
+.highlight {
+    color: white;
+}
+
+.highlight:hover {
+    color: var(--highlight-color);
+    text-shadow: 0 0 5px var(--highlight-color);
+}
+
+.highlight-active {
+    color: var(--highlight-color);
+    text-shadow: 0 0 5px var(--highlight-color);
+}
+
+.main-photo {
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.selectable-elm.active {
+    color: var(--highlight-color);
+    text-shadow: 0 0 5px var(--highlight-color);
+}
+
+ul li::before {
+    color: var(--highlight-color);
+}
+
+.fade-in {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 1}
+}

@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.9.0/src/app/ci.min.css"/>
+
+</head>
+<body class="w-screen h-full flex justify-center overflow-x-hidden" id="screen">
+    <main class="lg:w-5/6 w-full">
+        <nav class="flex justify-center p-4 mb-8 whitespace-nowrap">
+            <div class="flex flex-row justify-center py-2 px-12 gap-x-12 foreground-box rounded-full font-bold fade-in">
+                <a href="#info-box" class="flex items-center hover:scale-105 duration-300 ease-in-out highlight" id="nav">
+                    Experience
+                </a>
+                <a href="#info-box" class="flex items-center hover:scale-105 duration-300 ease-in-out highlight" id="nav">
+                    Projects
+                </a>
+                <a href="#" class="flex items-center hover:scale-105 duration-300 ease-in-out highlight" id="nav">
+                    Tech Stack
+                </a>
+            </div>
+        </nav>
+
+        <div class="flex flex-col lg:px-28 md:px-14 px-6 fade-in">
+            <div class = "md:w-3/4 w-7/8 flex flex-col items-start gap-y-4">
+                <div class="w-24 rounded-full border-4 border-[var(--foreground-border)] mr-4">
+                    <img id="avatar" src="./images/default.png" class="rounded-full" alt="Avatar">
+                </div>
+                <h1 class="text-4xl text-[var(--primary-text)] font-bold">Software and Mainframe Engineer, Student and Racing Enthusiast</h1>
+                <p class="text-lg font-thin text-[var(--secondary-text)]">
+                    Hello, I'm Dylan MacLeod, a computer science student at <span class="font-bold">Ontario Tech University</span> and a <span class="font-bold">Mainframe Engineer Co-op</span> at CIBC. I have a passion for coding, problem-solving, and learning new technologies.
+                </p>
+
+                <div class="flex flex-row justify-center gap-x-8 mb-8">
+                    <a href="https://github.com/Macpickle" target="_blank" class="text-[var(--primary-text)] font-bold hover:scale-105 duration-300 ease-in-out highlight">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dylan-macleod-b167b02ba/" target="_blank" class="text-[var(--primary-text)] font-bold hover:scale-105 duration-300 ease-in-out highlight">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="./assets/Dylan_M_RESUME.pdf" download="Dylan_M_RESUME" class="text-[var(--primary-text)] font-bold hover:scale-105 duration-300 ease-in-out highlight">
+                        <i class="fa-solid fa-file"></i>
+                    </a>
+                    <a href="mailto:dylanmacleod2005@gmail.com" class="text-[var(--primary-text)] font-bold hover:scale-105 duration-300 ease-in-out highlight">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full md:h-86 h-48 mb-6">
+                <div class="flex flex-row absolute w-[120vw] justify-evenly left-1/2 -translate-x-1/2">
+                    <img src="./images/HackHive.JPG" alt="Sample 1" class="main-photo md:h-86 md:w-64 h-48 w-32 rotate-3">
+                    <img src="./images/Mainframe.JPG" alt="Sample 2" class="main-photo md:h-86 md:w-64 h-48 w-32 -rotate-3">
+                    <img src="./images/City.JPG" alt="Sample 3" class="main-photo md:h-86 md:w-64 h-48 w-32 rotate-3">
+                    <img src="./images/Weather.png" alt="Sample 4" class="main-photo md:h-86 md:w-64 h-48 w-32 -rotate-3">
+                    <img src="./images/Racing.png" alt="Sample 5" class="main-photo md:h-86 md:w-64 h-48 w-32 rotate-3">
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row h-full mb-12 w-full gap-x-3">
+                <div class="w-full lg:w-1/2 flex flex-col space-y-2 mb-4" id="info-box">
+                    <h2 class="text-2xl text-[var(--primary-text)] font-bold mb-4" id="info-maintitle">Work Experience</h2>
+
+                    <div class="flex flex-col gap-1">
+                        <img src="./images/MainframeALT.png" class="w-full h-48 rounded-lg object-cover" alt="" id="info-image">
+
+                        <h3 class="text-lg text-[var(--primary-text)] font-bold" id="info-title">Mainframe Engineer Co-op</h3>
+                        <p class="text-sm text-[var(--primary-text)] font-thin border-l-2 pl-3 mb-4" id="info-subtitle">September 2025 - Present</p>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <ul class="list-decimal list-outside text-[var(--secondary-text)] font-thin space-y-4" id="info-description">
+                            <li>In the process of learning and contributing to the mainframe development at CIBC. Gaining hands-on experience with <span class="font-bold">COBOL</span>, <span class="font-bold">JCL</span>, and other mainframe technologies while collaborating with a team of experienced professionals.</li>
+                            <li>Currently working on automation scripts to streamline deployment processes and improve system efficiency.</li>
+                            <li>Completed <span class="font-bold">IBM Z Xplore</span> program, gaining valuable skills in mainframe technologies and cloud computing.</li>
+                        </ul>
+                    </div>
+
+                    <div class="flex">
+                        <a href="" target="_blank" class="highlight-active hover:scale-105 duration-300 ease-in-out" id="info-link"></a>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-1/2 flex flex-col gap-y-4">
+                    <div class="flex flex-1 flex-col border border-[var(--foreground-border)] rounded-3xl">
+                        <div class="flex flex-row items-center gap-x-4 p-6">
+                            <i class="fa-solid fa-briefcase text-[var(--secondary-text)]"></i>
+                            <h2 class="text-2xl text-[var(--primary-text)] font-bold">Work</h2>
+                        </div>
+                        <div class="flex flex-1 flex-col gap-y-4 mb-6 px-4">
+                            <button class="flex flex-row p-2 gap-x-4 hover:scale-102 hover:bg-[var(--foreground-hover)] duration-300 ease-in-out rounded-lg selectable-elm active" id="job1">
+                                <img src="./images/logos/CIBC.svg" class="w-12 h-12 rounded-full p-1.5 bg-[var(--foreground)] border border-[var(--foreground-border)]" alt="CIBC Logo">
+
+                                <div class="flex flex-col flex-1 items-start">
+                                    <h3 class="text-lg text-[var(--primary-text)] font-bold">CIBC</h3>
+                                    <div class="flex justify-between w-full">
+                                        <p class="text-sm text-[var(--secondary-text)] font-thin ">Mainframe Engineer Co-op</p>
+                                        <p class="text-sm text-[var(--secondary-text)] font-thin text-right whitespace-nowrap">Sept 2025 - Present</p>
+                                    </div> 
+                                </div>
+                            </button>
+                            <button class="flex flex-row p-2 gap-x-4 hover:scale-102 hover:bg-[var(--foreground-hover)] duration-300 ease-in-out rounded-lg selectable-elm" id="job2">
+                                <img src="./images/logos/CIBC.svg" class="w-12 h-12 rounded-full p-1.5 bg-[var(--foreground)] border border-[var(--foreground-border)]" alt="CIBC Logo">
+
+                                <div class="flex flex-col flex-1 items-start">
+                                    <h3 class="text-lg text-[var(--primary-text)] font-bold">CIBC</h3>
+                                    <div class="flex justify-between w-full">
+                                        <p class="text-sm text-[var(--secondary-text)] font-thin">Project Coordinator Co-op</p>
+                                        <p class="text-sm text-[var(--secondary-text)] font-thin text-right whitespace-nowrap">May 2025 - Aug 2025</p>
+                                    </div> 
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex flex-3 flex-col border border-[var(--foreground-border)] rounded-3xl">
+                        <div class="flex flex-row items-center gap-x-4 p-6">
+                            <i class="fa-solid fa-code text-[var(--secondary-text)]"></i>
+                            <h2 class="text-2xl text-[var(--primary-text)] font-bold">Projects</h2>
+                        </div>
+                        <div class="flex flex-1 flex-col gap-y-4 mb-6 px-4">
+                            <div id = "project-list" class = "flex flex-col gap-y-4">
+                                <!-- Project buttons will be dynamically inserted here -->
+                            </div>
+                            
+                            <a href="./assets/Dylan_M_RESUME.pdf" download="Dylan_M_RESUME" class="flex flex-row px-4 py-2 gap-x-4 hover:scale-102 bg-[var(--foreground)] hover:bg-[var(--foreground-hover)] border border-[var(--foreground-border)] duration-300 rounded-lg selectable-elm" id="download">
+                                <div class="flex flex-row flex-1 items-center gap-x-4 justify-center">
+                                    <i class="fa-solid fa-download text-[var(--secondary-text)]"></i>
+                                    <h3 class="text-lg text-[var(--secondary-text)] font-semibold">Download Resume</h3>
+                                </div>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col mb-12 w-full">
+                <h2 class="text-2xl text-[var(--primary-text)] font-bold mb-4">Tech Stack</h2>
+                <div class="grid lg:grid-cols-6 md:grid-cols-4 grid-cols-3 gap-6">
+                    <i class="ci ci-python ci-5x"></i>
+                    <i class="ci ci-java ci-5x"></i>
+                    <i class="ci ci-cpp ci-5x"></i>
+                    <i class="ci ci-js ci-5x"></i>
+                    <i class="ci ci-html ci-5x"></i>
+                    <i class="ci ci-css ci-5x"></i>
+                    <i class="ci ci-tailwindcss ci-5x"></i>
+                    <i class="ci ci-react ci-5x"></i>
+                    <i class="ci ci-node ci-5x"></i>
+                    <i class="ci ci-mongodb ci-5x"></i>
+                    <i class="ci ci-postgresql ci-5x"></i>
+                    <i class="ci ci-expressjs ci-5x" style="filter: invert(1);"></i>  
+                    <i class="ci ci-git ci-5x"></i>
+                    <i class="ci ci-github ci-5x"></i>
+                    <i class="ci ci-docker ci-5x"></i>
+                    <i class="ci ci-archlinux ci-5x"></i>
+                    <i class="ci ci-arduino ci-5x"></i>
+                    <i class="ci ci-raspberrypi ci-5x"></i>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="bg-[var(--background)] border-t border-[var(--foreground-border)] p-6 flex md:flex-row flex-col w-full justify-between">
+            <div class="flex flex-row justify-center items-center gap-x-8">
+                <a href="https://github.com/Macpickle" target="_blank" class="text-[var(--primary-text)] font-bold hover:scale-105 duration-300 ease-in-out highlight">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/dylan-macleod-b167b02ba/" target="_blank" class="text-[var(--primary-text)] font-bold hover:scale-105 duration-300 ease-in-out highlight">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="./assets/Dylan_M_RESUME.pdf" download="Dylan_M_RESUME" class="text-[var(--primary-text)] font-bold hover:scale-105 duration-300 ease-in-out highlight">
+                    <i class="fa-solid fa-file"></i>
+                </a>
+                <a href="mailto:dylanmacleod2005@gmail.com" class="text-[var(--primary-text)] font-bold hover:scale-105 duration-300 ease-in-out highlight">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+
+            <div class="flex flex-col items-end p-4">
+                <p class="text-sm text-[var(--secondary-text)] font-thin whitespace-nowrap">© 2025 Dylan MacLeod. All rights reserved.</p>
+            </div>
+        </footer>
+    </main> 
+</body>
+
+<script src="./index.js"></script>
+<script src="https://kit.fontawesome.com/a74a21bfbd.js" crossorigin="anonymous"></script>
+</html>

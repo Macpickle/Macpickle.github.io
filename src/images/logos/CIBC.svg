@@ -1,0 +1,24 @@
+<svg version="1.1" id="Layer_1" xmlns:x="ns_extend;" xmlns:i="ns_ai;" xmlns:graph="ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 76 65" style="enable-background:new 0 0 76 65;" xml:space="preserve">
+ <style type="text/css">
+  .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#C41F3E;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#8B1D41;}
+ </style>
+ <metadata>
+  <sfw xmlns="ns_sfw;">
+   <slices>
+   </slices>
+   <sliceSourceBounds bottomLeftOrigin="true" height="65" width="76" x="66" y="-0.3">
+   </sliceSourceBounds>
+  </sfw>
+ </metadata>
+ <g id="Logo-_x2F_-Colour-_x2F_-desktop-header-142x36">
+  <g id="Group" transform="translate(0.000000, -0.000000)">
+   <path id="Fill-3" class="st0" d="M53.9,2.5c-1.2-1.6-3.1-2.6-5.2-2.5H27.3c2.1-0.1,4,0.9,5.2,2.6c2.2,2.9,22.1,29.9,22.1,29.9
+			S34.6,59.6,32.5,62.4c-1.2,1.7-3.1,2.6-5.2,2.6h21.4c2,0.1,4-0.8,5.2-2.5l22.1-30L53.9,2.5z">
+   </path>
+   <path id="Fill-6" class="st1" d="M38,10L38,10c-2.7-3.7-4.9-6.6-5.5-7.4c-1.2-1.7-3.1-2.6-5.2-2.6c-2-0.1-4,0.9-5.2,2.5L0,32.5
+			l22.1,30c1.2,1.6,3.1,2.6,5.2,2.5c2.1,0.1,4-0.9,5.2-2.6L38,55L21.4,32.5L38,10z">
+   </path>
+  </g>
+ </g>
+</svg>
