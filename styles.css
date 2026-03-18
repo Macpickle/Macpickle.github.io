@@ -178,6 +178,11 @@ a:focus-visible, button:focus-visible {
 .image-stack:hover .stack-two   { transform: translateX(-50%) rotate(4deg) translateY(-14px); }
 .image-stack:hover .stack-three { transform: translateX(calc(-50% + 90px)) rotate(0deg) translateY(-6px); }
 
+/* HackHive image — crop focus on person */
+.hackhive-img {
+    object-position: 80% 40%;
+}
+
 /* ── Anchor scroll offset (for fixed navbar) ── */
 #about, #education, #experience, #projects, #skills {
     scroll-margin-top: 5rem;
